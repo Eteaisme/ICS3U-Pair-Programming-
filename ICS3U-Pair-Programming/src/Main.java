@@ -6,15 +6,29 @@ public class Main {
 
     Random random = new Random();
     
-    int answer = 0; 
+    string answer = 0; 
     int guess = 0;
-
-    while (guess == answer){
-    
-        answer = random.nextInt(9);
+    int round = 1;
+    string answer2 = 1;
+    answer = random.nextInt(9);
         System.out.println(answer);
+    while (guess == answer);{
     
+       
+    for (round){ 
+        answer2 = random.nextInt(9);
+        answer = answer + answer2;
+        System.out.println(answer);
+
+    }
+
+
     }
     
 }
 }
+
+
+public answers(int answer, int answer2){
+            this.answer = 0;
+            this.round = 1; 
